@@ -55,3 +55,5 @@ def create_item_for_user(
     return crud.create_user_item(db=db, item=item, user_id=user_id)
 
 
+# TODO (Assignment Part 1): add your GET /items/{item_id} endpoint here.
+

@@ -37,6 +37,16 @@
 # *.iml
 # *.ipr
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local SQLite database created when you run the API
+*.db
+
 .idea/
 .vscode/
 node_modules/
